@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE tiles-definitions PUBLIC "-//Apache Software Foundation//DTD Tiles Configuration 2.1//EN"
+        "http://tiles.apache.org/dtds/tiles-config_2_1.dtd">
+
+<tiles-definitions>
+
+    <definition name="test-tiles" extends="default">
+        <put-attribute name="content" value="/WEB-INF/views/test/test.jsp"/>
+    </definition>
+
+    <definition name="indexPage" extends="default">
+        <put-attribute name="content" value="/WEB-INF/views/main/index.jsp"/>
+    </definition>
+
+    <definition name="profilePage" extends="default">
+        <put-attribute name="content" value="/WEB-INF/views/main/profile.jsp"/>
+    </definition>
+
+    <definition name="userPage" extends="default">
+        <put-attribute name="content" value="/WEB-INF/views/main/user.jsp"/>
+    </definition>
+
+    <definition name="userEditPage" extends="default">
+        <put-attribute name="content" value="/WEB-INF/views/main/userEdit.jsp"/>
+    </definition>
+
+
+    <definition name="basketPage" extends="default">
+        <put-attribute name="content" value="/WEB-INF/views/main/basket.jsp"/>
+    </definition>
+
+    <definition name="passwordPage" extends="default">
+        <put-attribute name="content" value="/WEB-INF/views/main/password.jsp"/>
+    </definition>
+
+    <definition name="registrationPage" extends="default">
+        <put-attribute name="content" value="/WEB-INF/views/main/registration.jsp"/>
+    </definition>
+
+    <definition name="forgotPage" extends="default">
+        <put-attribute name="content" value="/WEB-INF/views/main/forgot.jsp"/>
+    </definition>
+
+    <definition name="catalogPage" extends="default">
+        <put-attribute name="content" value="/WEB-INF/views/main/catalog.jsp"/>
+    </definition>
+
+    <definition name="productViewPage" extends="default">
+        <put-attribute name="content" value="/WEB-INF/views/main/productView.jsp"/>
+    </definition>
+
+    <definition name="basketProductEditPage" extends="default">
+        <put-attribute name="content" value="/WEB-INF/views/main/basketProductEdit.jsp"/>
+    </definition>
+
+    <definition name="basketSavePage" extends="default">
+        <put-attribute name="content" value="/WEB-INF/views/main/basketSave.jsp"/>
+    </definition>
+
+    <definition name="myOrdersPage" extends="default">
+        <put-attribute name="content" value="/WEB-INF/views/main/myOrders.jsp"/>
+    </definition>
+
+    <definition name="loginPage" extends="default">
+            <put-attribute name="content" value="/WEB-INF/views/main/login.jsp"/>
+        </definition>
+
+
+</tiles-definitions>

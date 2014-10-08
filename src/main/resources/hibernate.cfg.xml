@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<!DOCTYPE hibernate-configuration PUBLIC
+        "-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+        "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+
+<hibernate-configuration>
+
+    <session-factory>
+
+        <property name="connection.driver_class">org.postgresql.Driver</property>
+        <property name="dialect">org.hibernate.dialect.PostgreSQL82Dialect</property>
+
+        <property name="connection.url">jdbc:postgresql://localhost/newproject</property>
+        <property name="connection.username">postgres</property>
+        <property name="connection.password">postgres</property>
+        <property name="connection.pool_size">1</property>
+
+        <property name="show_sql">false</property>
+
+        <mapping class="com.myproject.web.domain.User"/>
+        <mapping class="com.myproject.web.domain.UserGroup"/>
+        <mapping class="com.myproject.web.domain.UserStatus"/>
+        <mapping class="com.myproject.web.domain.Product"/>
+        <mapping class="com.myproject.web.domain.Category"/>
+        <mapping class="com.myproject.web.domain.UOrder"/>
+        <mapping class="com.myproject.web.domain.OrderStatus"/>
+        <mapping class="com.myproject.web.domain.OrderProduct"/>
+
+        <mapping class="com.myproject.web.domain.ProductType"/>
+        <mapping class="com.myproject.web.domain.TypeAttribute"/>
+        <mapping class="com.myproject.web.domain.ProductAttribute"/>
+
+
+        <!--
+        <mapping class="com.myproject.app.domain.User"/>
+        <mapping class="com.myproject.app.domain.Role"/>
+        <mapping class="com.myproject.app.domain.AppResource"/>
+        <mapping class="com.myproject.app.domain.UserComplaint"/>
+        <mapping class="com.myproject.app.domain.Payment"/>
+        <mapping class="com.myproject.app.domain.PaymentType"/>
+        <mapping class="com.myproject.app.domain.Product"/>
+        <mapping class="com.myproject.app.domain.BasketIthem"/>
+        <mapping class="com.myproject.app.domain.Basket"/>
+        <mapping class="com.myproject.app.domain.Deliver"/>
+        <mapping class="com.myproject.app.domain.DeliverType"/>
+        <mapping class="com.myproject.app.domain.Queue"/>
+        -->
+
+
+    </session-factory>
+
+</hibernate-configuration>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE tiles-definitions PUBLIC "-//Apache Software Foundation//DTD Tiles Configuration 2.1//EN"
+        "http://tiles.apache.org/dtds/tiles-config_2_1.dtd">
+
+<tiles-definitions>
+
+    <definition name="adminPage" extends="admin">
+        <put-attribute name="content" value="/WEB-INF/views/admin/admin.jsp"/>
+    </definition>
+
+    <definition name="groupsPage" extends="admin">
+        <put-attribute name="content" value="/WEB-INF/views/admin/groups.jsp"/>
+    </definition>
+
+    <definition name="groupEditPage" extends="admin">
+        <put-attribute name="content" value="/WEB-INF/views/admin/groupEdit.jsp"/>
+    </definition>
+
+    <definition name="usersPage" extends="admin">
+        <put-attribute name="content" value="/WEB-INF/views/admin/users.jsp"/>
+    </definition>
+
+    <definition name="userEditPage" extends="admin">
+        <put-attribute name="content" value="/WEB-INF/views/admin/userEdit.jsp"/>
+    </definition>
+
+    <definition name="productsPage" extends="admin">
+        <put-attribute name="content" value="/WEB-INF/views/admin/products.jsp"/>
+    </definition>
+
+    <definition name="productEditPage" extends="admin">
+        <put-attribute name="content" value="/WEB-INF/views/admin/productEdit.jsp"/>
+    </definition>
+
+    <definition name="categoriesPage" extends="admin">
+        <put-attribute name="content" value="/WEB-INF/views/admin/categories.jsp"/>
+    </definition>
+
+    <definition name="categoryEditPage" extends="admin">
+        <put-attribute name="content" value="/WEB-INF/views/admin/categoryEdit.jsp"/>
+    </definition>
+
+    <definition name="userStatusesPage" extends="admin">
+        <put-attribute name="content" value="/WEB-INF/views/admin/userStatuses.jsp"/>
+    </definition>
+
+    <definition name="userStatusEditPage" extends="admin">
+        <put-attribute name="content" value="/WEB-INF/views/admin/userStatusEdit.jsp"/>
+    </definition>
+
+    <definition name="orderStatusesPage" extends="admin">
+        <put-attribute name="content" value="/WEB-INF/views/admin/orderStatuses.jsp"/>
+    </definition>
+
+    <definition name="orderStatusEditPage" extends="admin">
+        <put-attribute name="content" value="/WEB-INF/views/admin/orderStatusEdit.jsp"/>
+    </definition>
+
+    <definition name="productTypesPage" extends="admin">
+        <put-attribute name="content" value="/WEB-INF/views/admin/productTypes.jsp"/>
+    </definition>
+
+    <definition name="productTypeEditPage" extends="admin">
+        <put-attribute name="content" value="/WEB-INF/views/admin/productTypeEdit.jsp"/>
+    </definition>
+
+    <definition name="attributeTypesPage" extends="admin">
+        <put-attribute name="content" value="/WEB-INF/views/admin/attributeTypes.jsp"/>
+    </definition>
+
+    <definition name="attributeTypeEditPage" extends="admin">
+        <put-attribute name="content" value="/WEB-INF/views/admin/attributeTypeEdit.jsp"/>
+    </definition>
+
+    <definition name="ordersPage" extends="admin">
+        <put-attribute name="content" value="/WEB-INF/views/admin/orders.jsp"/>
+    </definition>
+
+    <definition name="orderEditPage" extends="admin">
+        <put-attribute name="content" value="/WEB-INF/views/admin/orderEdit.jsp"/>
+    </definition>
+
+</tiles-definitions>
